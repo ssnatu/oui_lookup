@@ -1,20 +1,12 @@
-Please setup the project and run the migration
+This is to demonstrate how to import the IEEE CSV data using the artisan command and look up the OUIs by single or multiple MAC addresses using the REST APIs.
 
-**Task 1**
+The CSV is taken from http://standards-oui.ieee.org/oui/oui.csv
 
-Import the IEEE OUI CSV data using PHP artisan console command
+Artisan command to import a CSV: `php artisan import:oui-csv`
 
-Please check `app\Console\Commands\ImportOuiCsv.php`
+This command will import all the CSV data into the database.
 
-`php artisan import:oui-csv`
-
-This command will import all the CSV data into the database
-
-**Task 2**
-
-Implement a JSON API to lookup the vendor's OUI by MAC address
-
-I have added some random MAC addresses with the second character '2', '6', 'A' or 'E' as mentioned. Please check in `public/oui1.csv file`
+An API to lookup the vendor's OUI by MAC address
 
 1. GET request for single MAC lookup:
    ![2023-10-01_18h45_41](https://github.com/ssnatu/glide/assets/31346079/ad2cbf51-344c-4016-8797-f6ae99411aa6)
