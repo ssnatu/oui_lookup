@@ -1,4 +1,4 @@
-This is to demonstrate how to import the IEEE CSV data using the artisan command and look up the OUIs by single or multiple MAC addresses using the REST APIs.
+This is to demonstrate how to import the IEEE CSV data using the artisan command and look up the OUIs by single or multiple MAC addresses to get the vendor's name using the REST APIs.
 
 The CSV is taken from http://standards-oui.ieee.org/oui/oui.csv
 
